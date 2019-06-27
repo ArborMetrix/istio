@@ -111,7 +111,7 @@ global:
   hub: gcr.io/istio-release
 
   # Default tag for Istio images.
-  tag: release-1.1-latest-daily
+  tag: release-1.1-20190614-09-15
 
   # Comma-separated minimum per-scope logging level of messages to output, in the form of <scope>:<level>,<scope>:<level>
   # The control plane has different scopes depending on component, but can configure default log level across all components

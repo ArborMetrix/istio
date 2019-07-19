@@ -1,14 +1,13 @@
 apiVersion: v1
 name: istio-init
-version: 1.1.10
-appVersion: release-1.1-20190614-09-15
+version: 1.1.11
+appVersion: release-1.1-20190719-09-16
 tillerVersion: ">=2.7.2-0"
 description: Helm chart to initialize Istio CRDs
 keywords:
   - istio
   - crd
 sources:
-  - http://github.com/istio/istio
-  - https://github.com/istio/istio/tree/1.1.10/install/kubernetes/helm
+  - https://github.com/ArborMetrix/istio/tree/amx-1.1.11/install/kubernetes/helm
 engine: gotpl
 icon: https://istio.io/favicons/android-192x192.png
